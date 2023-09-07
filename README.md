@@ -20,7 +20,7 @@ The requirements.txt file contains all the packages that we want to use in the s
 
 # .devcontainer
 -------------------------
-The .devcontainer folder contains the Dockerfile and associated .json file. This runs the development project. 
+The .devcontainer folder contains the Dockerfile and associated .json file. The Dockerfile builds a container that will be used in the dev environment, then the .json file configures the container. This provides a consistent devlopment environment for software engineers to jointly work on projects. 
 
 # Github Actions
 -------------------------
