@@ -14,7 +14,7 @@ The goal of this is to have a template that can be used in further projects for 
 -------------------------
 Most of the makefile steps are actually commented out because this would cause errors as there are no .py files being used or pushed in the workflow. 
 
-#Requirements 
+#requirements.txt
 -------------------------
 The requirements.txt file contains all the packages that we want to use in the system. The template contains all the packages that would be of use in any system. This includes pytest, ruff linter, a formatter, etc. 
 
@@ -30,7 +30,8 @@ The github actions folder contains a .yml file which runs all needed actions for
 -------------------------
 The gitignore file is a base file that gets rid of any 'clutter' formed by pushing, pulling, and opening git files. 
 
-#Discussion
+
+# Discussion
 
 All these files can be 'run' as a template, however, there is no point or output really. This template once added to a repository with a script and test cases shows its full functionality. 
 When you run this template it just installs the packages and does the processes in the Makefile.
